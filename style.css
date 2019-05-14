@@ -135,32 +135,17 @@ button {
     #vid_container {
         width:80%;
         height:100%;
+        display: none;
     }  
-
-    #vid_container.left {
-        left:20%;
+    .slides {
+        display: none;
     }
-
-    /* we default to right */
-    #gui_controls {
-        width: 20%; 
-        height:100%;
-        right:0;
-    }  
-
-    /* for the lefties */
-    #gui_controls.left {
-        left:0;
+   .slide-indicator {
+       display: none;
     }
-
-    #switchCameraButton { 
-        left: calc(50% - 32px);
-        top: calc(18% - 32px);
-    }
-
-    #toggleFullScreenButton {
-        left: calc(50% - 32px);
-        top: calc(82% - 32px);
-    }
+    .demo-container {
+background-color: #f00;}
+    
 
 } 
+
